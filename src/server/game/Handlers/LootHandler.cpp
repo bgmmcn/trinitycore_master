@@ -41,7 +41,7 @@
 class AELootCreatureCheck
 {
 public:
-    static float constexpr LootDistance = 30.0f;
+    static float constexpr LootDistance = 100.0f;
 
     AELootCreatureCheck(Player* looter, ObjectGuid mainLootTarget) : _looter(looter), _mainLootTarget(mainLootTarget) { }
 
